@@ -1,0 +1,57 @@
+@import "../../../routing.less";
+span.exit {
+  a {
+    background: none;
+    border: none;
+    margin: 0 0 0 12px;
+    padding: 0;
+    display: inline-block;
+    box-shadow: none;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -moz-appearance: normal;
+    -webkit-appearance: normal;
+    height: 24px;
+    font-family: arial, sans-serif;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+    color: @actionColor;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  a[disabled] {
+    cursor: default;
+    text-decoration: none;
+    color: rgba(2, 141, 19, 0.32);
+  }
+
+  a:focus {
+    outline: none;
+  }
+
+  a:before {
+    content: '';
+    display:inline-block;
+    height:@smallRoundButtonRadius * 2;
+    width:@smallRoundButtonRadius * 2;
+    margin:2px 6px;
+    border-radius: @smallRoundButtonRadius;
+    border: none;
+    vertical-align: middle;
+    background: @actionColor url("/static/vanilla/controls/headerBlock/exit.png") no-repeat center;
+  }
+
+  a:hover:before {
+    background-color: @actionHoverColor
+  }
+
+  a:active:before {
+    background-color: @actionPushColor
+  }
+}

@@ -1,0 +1,57 @@
+.focus {
+  box-shadow: #595959 0 0 1px;
+  outline: none;
+}
+.controls_button_button.flatButton a,
+.controls_url_url.flatButton a,
+.controls_button_button.flatButton button,
+.controls_url_url.flatButton button {
+  background: none;
+  border: none;
+  border-radius: 18px;
+  padding: 0 24px;
+  display: inline-block;
+  box-shadow: none;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -moz-appearance: normal;
+  -webkit-appearance: normal;
+  height: 36px;
+  line-height: 36px;
+  font-family: arial, sans-serif;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: #33bef2;
+  color: #ffffff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.controls_button_button.flatButton a:hover,
+.controls_url_url.flatButton a:hover,
+.controls_button_button.flatButton button:hover,
+.controls_url_url.flatButton button:hover {
+  background-color: #37d67e;
+  color: #ffffff;
+}
+.controls_button_button.flatButton a:active,
+.controls_url_url.flatButton a:active,
+.controls_button_button.flatButton button:active,
+.controls_url_url.flatButton button:active {
+  background-color: #595959;
+  color: #ffffff;
+}
+.controls_button_button.flatButton a:visited,
+.controls_url_url.flatButton a:visited {
+  color: #ffffff;
+}
+.controls_button_button.flatButton a:focus,
+.controls_url_url.flatButton a:focus {
+  box-shadow: #595959 0 0 1px;
+  outline: none;
+}

@@ -1,0 +1,51 @@
+@import "../../colors.less";
+
+.controls_button_button, .controls_url_url {
+  &.flatButton {
+
+    a, button {
+      background: none;
+      border: none;
+      border-radius: 18px;
+      padding: 0 24px;
+      display: inline-block;
+      box-shadow: none;
+      box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      -moz-appearance: normal;
+      -webkit-appearance: normal;
+      height: 36px;
+      line-height: 36px;
+      font-family: arial, sans-serif;
+      text-align: left;
+      cursor: pointer;
+      text-decoration: none;
+      text-shadow: none;
+      font-size: 15px;
+      font-weight: normal;
+      background-color: @actionColor;
+      color: @buttonTextColor;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    a:hover, button:hover {
+      background-color: @actionHoverColor;
+      color: @buttonTextColor;
+    }
+
+    a:active, button:active {
+      background-color: @actionPushColor;
+      color: @buttonTextColor;
+    }
+
+    a:visited {
+      color: @buttonTextColor;
+    }
+    a:focus {
+      .focus;
+    }
+  }
+}

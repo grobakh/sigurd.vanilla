@@ -1,0 +1,92 @@
+.focus {
+  box-shadow: #40c37a 0 0 1px;
+  outline: none;
+}
+.actionFont {
+  color: #33bef2;
+  font-size: medium;
+}
+.linkFont {
+  color: #33bef2;
+  font-size: medium;
+}
+.titleFont {
+  color: #40c37a;
+  font-size: 24px;
+  font-weight: normal;
+}
+.infoTextFont {
+  color: #595959;
+  font-size: 11px;
+}
+.infoBoldTextFont {
+  color: #595959;
+  font-size: 11px;
+  font-weight: bold;
+}
+.errorTextFont {
+  color: #ee7777;
+  font-size: small;
+}
+.blockTitleFont {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #595959;
+}
+.blockSubTitleFont {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #595959;
+}
+.subTitleFont {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #595959;
+}
+.descriptionText {
+  font-size: small;
+  color: #595959;
+}
+.formContentFont {
+  font-size: 12px;
+  font-family: Arial;
+  color: #000000;
+}
+.hintFont {
+  font-size: 10px;
+  font-style: italic;
+  font-family: Arial;
+  color: #8e8e8e;
+}
+.itemFont {
+  font-size: 11px;
+  font-family: Arial;
+  color: #000000;
+}
+@-webkit-keyframes blink {
+  0% {
+    -webkit-transform: scaleY(0);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+  }
+}
+@keyframes blink {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.contextTitle .title {
+  color: #40c37a;
+  font-size: 24px;
+  font-weight: normal;
+  padding-right: 24px;
+  margin: 24px 0;
+  line-height: 24px;
+}

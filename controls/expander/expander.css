@@ -1,0 +1,24 @@
+.focus {
+  box-shadow: #595959 0 0 1px;
+  outline: none;
+}
+.controls_expander_expander {
+  clear: both;
+}
+.controls_expander_expander .controller-open,
+.controls_expander_expander .controller-closed {
+  float: none;
+  margin: 12px 0 6px 0;
+  padding: 0 3px 0 12px;
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  background-position: left 6px;
+}
+.controls_expander_expander .expander-closed {
+  height: 12px;
+  visibility: hidden;
+}
+.controls_expander_expander .expander-open {
+  overflow: visible;
+}

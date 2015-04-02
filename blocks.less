@@ -1,0 +1,156 @@
+@import "sizes.less";
+@import "colors.less";
+@import "fonts.less";
+
+.app_desktop_desktop {
+  width: @workSpaceWidth;
+  margin: 0 auto;
+}
+
+.banana {
+
+  .header {
+    position: absolute;
+    height: @headerHeight;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: @workSpaceWidth;
+  }
+
+
+  .workspace {
+
+    width: 640px;
+    margin-bottom: 72px;
+
+    .sidebar {
+      /*width: @contentRightWidth; we don't use banana anymore and this width corrupts our view article page */
+      float:right;
+      .sidebarContextActions {
+        min-height: @contextActionsHeight;
+      }
+    }
+
+    .contextTitle {
+      .title {
+        color: @titleColor;
+      }
+    }
+
+    .contentMain {
+      padding-bottom: 20px;
+      margin-bottom: 17px;
+    }
+  }
+
+  .actions {
+    position: fixed;
+    bottom: 0;
+    height: @actionsHeight;
+    padding: 0;
+    left: 0;
+    right: 0;
+    background-color: @actionPanelBackgroundColor;
+
+    .inner {
+      width: @constantWidth - 2 * @globalHorizontalMargin;
+      margin: 0 auto;
+      padding: @cell @globalHorizontalMargin;
+    }
+  }
+}
+
+.strawberry {
+
+  .header {
+    position: absolute;
+    height: @headerHeight;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .workspace {
+
+
+
+    .contextTitle {
+      //min-height: @contextTitleHeight;
+      .title {
+        .titleFont;
+      }
+    }
+
+    .contextNavigation {
+      float:left;
+      width: 3 * @cell + 4 * @bigCell;
+      padding-bottom: 4 * @cell;
+    }
+
+    .contentMain {
+      margin-left: 4 * ( @cell + @bigCell);
+      padding-bottom: 4 * @cell;
+    }
+  }
+
+  .actions {
+    position: fixed;
+    bottom: 0;
+    height: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    background-color: @actionPanelBackgroundColor;
+
+    .inner {
+      width: @constantWidth - 2 * @globalHorizontalMargin;
+      margin: 0 auto;
+      padding: @cell @globalHorizontalMargin;
+    }
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+
+ /*
+.strawberry {
+  background-color: #ff11aa;
+}
+
+.header {
+  background-color: #ffffaa;
+}
+
+.workspace {
+  background-color: #0fffff;
+}
+
+.contextTitle {
+  background-color: #ddddff;
+}
+
+.contextNavigation {
+  background-color: #ffcccc;
+}
+
+.contentMain {
+  background-color: #ffdddd;
+}
+
+.sidebarContent {
+  background-color: #ffcccc;
+}
+
+.sidebarContextActions {
+  background-color: #ccccff;
+}
+*/

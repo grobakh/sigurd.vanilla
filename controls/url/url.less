@@ -1,0 +1,35 @@
+@import "../../colors.less";
+
+.controls_url_url {
+  a {
+    background: none;
+    padding: 0 12px;
+    display: inline;
+    font-family: arial, sans-serif;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: normal;
+    color: @actionColor;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  a:visited {
+    color: @actionColor;
+  }
+
+  a:hover {
+    color: @actionHoverColor;
+  }
+
+  a:active {
+    color: @actionPushColor;
+  }
+  a:focus {
+    .focus;
+  }
+}

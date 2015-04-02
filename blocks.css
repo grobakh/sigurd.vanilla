@@ -1,0 +1,188 @@
+.focus {
+  box-shadow: #595959 0 0 1px;
+  outline: none;
+}
+.actionFont {
+  color: #33bef2;
+  font-size: medium;
+}
+.linkFont {
+  color: #33bef2;
+  font-size: medium;
+}
+.titleFont {
+  color: #595959;
+  font-size: 24px;
+  font-weight: normal;
+}
+.infoTextFont {
+  color: #595959;
+  font-size: 11px;
+}
+.infoBoldTextFont {
+  color: #595959;
+  font-size: 11px;
+  font-weight: bold;
+}
+.errorTextFont {
+  color: #ee7777;
+  font-size: small;
+}
+.blockTitleFont {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #595959;
+}
+.blockSubTitleFont {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #595959;
+}
+.subTitleFont {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #595959;
+}
+.descriptionText {
+  font-size: small;
+  color: #595959;
+}
+.formContentFont {
+  font-size: 12px;
+  font-family: Arial;
+  color: #000000;
+}
+.hintFont {
+  font-size: 10px;
+  font-style: italic;
+  font-family: Arial;
+  color: #8e8e8e;
+}
+.itemFont {
+  font-size: 11px;
+  font-family: Arial;
+  color: #000000;
+}
+.app_desktop_desktop {
+  width: 978px;
+  margin: 0 auto;
+}
+.banana .header {
+  position: absolute;
+  height: 72px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 978px;
+}
+.banana .workspace {
+  width: 640px;
+  margin-bottom: 72px;
+}
+.banana .workspace .sidebar {
+  /*width: @contentRightWidth; we don't use banana anymore and this width corrupts our view article page */
+
+  float: right;
+}
+.banana .workspace .sidebar .sidebarContextActions {
+  min-height: 72px;
+}
+.banana .workspace .contextTitle .title {
+  color: #595959;
+}
+.banana .workspace .contentMain {
+  padding-bottom: 20px;
+  margin-bottom: 17px;
+}
+.banana .actions {
+  position: fixed;
+  bottom: 0;
+  height: 72px;
+  padding: 0;
+  left: 0;
+  right: 0;
+  background-color: #303030;
+}
+.banana .actions .inner {
+  width: 988px;
+  margin: 0 auto;
+  padding: 18px 18px;
+}
+.strawberry .header {
+  position: absolute;
+  height: 72px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.strawberry .workspace .contextTitle .title {
+  color: #595959;
+  font-size: 24px;
+  font-weight: normal;
+}
+.strawberry .workspace .contextNavigation {
+  float: left;
+  width: 314px;
+  padding-bottom: 72px;
+}
+.strawberry .workspace .contentMain {
+  margin-left: 332px;
+  padding-bottom: 72px;
+}
+.strawberry .actions {
+  position: fixed;
+  bottom: 0;
+  height: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  background-color: #303030;
+}
+.strawberry .actions .inner {
+  width: 988px;
+  margin: 0 auto;
+  padding: 18px 18px;
+}
+.clear {
+  clear: both;
+}
+.right {
+  float: right;
+}
+/*
+.strawberry {
+  background-color: #ff11aa;
+}
+
+.header {
+  background-color: #ffffaa;
+}
+
+.workspace {
+  background-color: #0fffff;
+}
+
+.contextTitle {
+  background-color: #ddddff;
+}
+
+.contextNavigation {
+  background-color: #ffcccc;
+}
+
+.contentMain {
+  background-color: #ffdddd;
+}
+
+.sidebarContent {
+  background-color: #ffcccc;
+}
+
+.sidebarContextActions {
+  background-color: #ccccff;
+}
+*/

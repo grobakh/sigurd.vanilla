@@ -1,0 +1,33 @@
+.focus {
+  box-shadow: #595959 0 0 1px;
+  outline: none;
+}
+.controls_url_url a {
+  background: none;
+  padding: 0 12px;
+  display: inline;
+  font-family: arial, sans-serif;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: normal;
+  color: #33bef2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.controls_url_url a:visited {
+  color: #33bef2;
+}
+.controls_url_url a:hover {
+  color: #37d67e;
+}
+.controls_url_url a:active {
+  color: #595959;
+}
+.controls_url_url a:focus {
+  box-shadow: #595959 0 0 1px;
+  outline: none;
+}

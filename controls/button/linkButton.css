@@ -1,0 +1,48 @@
+.focus {
+  box-shadow: #595959 0 0 1px;
+  outline: none;
+}
+.controls_button_button.linkButton a,
+.controls_button_button.linkButton button {
+  background: none;
+  border: none;
+  margin: 6px 6px 6px 0px;
+  padding: 0 2px;
+  display: inline-block;
+  box-shadow: none;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  appearance: normal;
+  -moz-appearance: normal;
+  -webkit-appearance: normal;
+  font-family: arial, sans-serif;
+  text-align: left;
+  cursor: pointer;
+  border-bottom: 1px dotted #33bef2;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: 11px;
+  font-weight: normal;
+  color: #33bef2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.controls_button_button.linkButton a:hover,
+.controls_button_button.linkButton button:hover {
+  color: #37d67e;
+  border-color: #37d67e;
+}
+.controls_button_button.linkButton a:active,
+.controls_button_button.linkButton button:active {
+  color: #595959;
+  border-color: #595959;
+}
+.controls_button_button.linkButton a:focus,
+.controls_button_button.linkButton button:focus {
+  color: #37d67e;
+  border-color: #37d67e;
+  box-shadow: #595959 0 0 1px;
+  outline: none;
+}

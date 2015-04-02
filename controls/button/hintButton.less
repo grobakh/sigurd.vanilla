@@ -1,0 +1,50 @@
+@import "../../colors.less";
+
+.controls_button_button.hintButton {
+  a, button {
+    background: none;
+    border: none;
+    //border-radius: 18px;
+    margin: 6px 6px 6px 0px;
+    padding: 0 2px;
+    display: inline-block;
+    box-shadow: none;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    appearance: normal;
+    -moz-appearance: normal;
+    -webkit-appearance: normal;
+    height: 16px;
+    font-family: arial, sans-serif;
+    text-align: left;
+    cursor: pointer;
+
+    border-bottom: 1px dotted @actionColor;
+    text-decoration: none;
+
+    text-shadow: none;
+    font-size: 11px;
+    font-weight: normal;
+    color: @actionColor;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  a:hover, button:hover {
+    color: @actionHoverColor;
+    border-color: @actionHoverColor;
+  }
+
+  a:active, button:active {
+    color: @actionPushColor;
+    border-color: @actionPushColor;
+  }
+
+  a:focus, button:focus {
+    color: @actionHoverColor;
+    border-color: @actionHoverColor;
+    .focus;
+  }
+}
